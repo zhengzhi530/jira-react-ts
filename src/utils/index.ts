@@ -33,8 +33,8 @@ export const cleanObject = (object?: { [key: string]: unknown }) => {
 export const useMount = (callback: () => void) => {
   useEffect(() => {
     callback();
-  }, [callback]);
-};
+  }, [callback])
+}
 
 // const debounce = (func, delay) => {
 //   let timeout;
